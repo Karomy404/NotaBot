@@ -879,4 +879,9 @@ end
 
 -- end of auto-generated methods --
 
+function API:crosspostMessage(channel_id, message_id) -- Message:crosspost
+    local endpoint = f(endpoints.CHANNEL_MESSAGE_CROSSPOST, channel_id, message_id)
+    return self:request("POST", endpoint)
+end
+
 return API
