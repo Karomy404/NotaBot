@@ -1,4 +1,4 @@
--- Copyright (C) 2018 Jérôme Leclercq
+-- Copyright (C) 2022 Ben4444
 -- This file is part of the "Not a Bot" application
 -- For conditions of distribution and use, see copyright notice in LICENSE
 
